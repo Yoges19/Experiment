@@ -1,11 +1,15 @@
 *{
     margin: 0;
     padding: 0;
+    font-size: large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .head{
     text-align: center;
     background-color: rgb(216, 162, 162);
-    padding: 10px;
+    font-family: 'Times New Roman', Times, serif;
+    color: wheat;
+    padding: 30px;
 }
 
 .news-img{
@@ -35,7 +39,6 @@
 }
 
 .container {
-    border: 2px solid red;
     background-image: url("/imgs/wall.jpg");
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -77,7 +80,7 @@ footer{
 .news-img:hover {
     transform: scale(1.05);
     border: 2px solid silver;
-    border-radius: 30px;
+    border-radius: 50px;
 }
 
 .ex {
