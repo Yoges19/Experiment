@@ -8,10 +8,9 @@
     padding: 10px;
 }
 
-#news-img{
+.news-img{
     width: 200px;
-    height: 4%;
-    border: 2px dotted red;
+    height: 3%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -73,7 +72,12 @@ footer{
 
 .img-con{
     display: flex;
-
+    justify-self: space-around;
+}
+.news-img:hover {
+    transform: scale(1.05);
+    border: 2px solid silver;
+    border-radius: 30px;
 }
 
 .ex {
