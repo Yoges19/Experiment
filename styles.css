@@ -60,7 +60,7 @@ footer{
 
 .btn-box{
     display: flex;
-    justify-self: center;
+    justify-content: center;
 }
 
 .txt {
