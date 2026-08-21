@@ -1,8 +1,26 @@
+@font-face {
+    font-family: realone;
+    src: url("/src/frontend/Comback-Home.ttf");
+}
+
+
 *{
     margin: 0;
     padding: 0;
+    color: black;
+    background-image: url("/imgs/wall.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.head{
+    text-align: center;
+    font-family: realone;
+    font-size: larger;
+    background-color: aliceblue;
+    opacity: 70%;
+    padding: 10px;
     font-size: large;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .head{
     text-align: center;
@@ -14,13 +32,18 @@
 
 .news-img{
     width: 200px;
-    height: 3%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    height: 4%;
+    display: flex;
+    justify-content: space-between;
     margin-top: 40px;
     margin-bottom: 40px;
     border-radius: 20px;
+}
+
+.news-img:hover {
+    border: 2px solid silver;
+    border-radius: 30px;
+    transform: scale(1.05);
 }
 
 .heading {
@@ -35,14 +58,11 @@
 .line {
     margin-bottom: 20px;
     margin-top: 20px;
-    color: brown;
+    color: rgb(247, 129, 129);
 }
 
 .container {
-    background-image: url("/imgs/wall.jpg");
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+    font-size: large;
 }
 
 footer{
@@ -51,14 +71,18 @@ footer{
 
 .btn {
     display: block;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-left: 16px;
-    padding-right: 16px;
-    background-color: rgb(231, 194, 139);
-    border: 1px solid brown;
+    padding: 8px 16px;
+    background-color: rgb(235, 153, 153);
+    border: 2px solid brown;
     border-radius: 20px;
     margin: 10px;
+}
+
+.btn:hover {
+    background-color: transparent;
+    color: white;
+    border: 2px solid silver;
+    transform: scale(1.05);
 }
 
 .btn-box{
